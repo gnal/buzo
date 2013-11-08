@@ -1,0 +1,4 @@
+Buzo\CoreBundle\Entity\Qtvr:
+    properties:
+        filenameFile:
+            - NotBlank: ~

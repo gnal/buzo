@@ -11,12 +11,13 @@ class QtvrAdmin extends Admin
     public function buildGrid(GridBuilder $builder)
     {
         $builder
-            ->add('filename')
             ->add('secret', 'text', [
                 'route' => 'buzo_core_qtvr_show',
                 'route_parameters' => [
                     'secret',
                 ],
+                'url_as_label' => true,
+                'label' => 'url',
             ])
             ->add('', 'action')
         ;
