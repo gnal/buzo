@@ -18,6 +18,7 @@ class QtvrAdmin extends Admin
                 ],
                 'url_as_label' => true,
                 'label' => 'url',
+                'truncate' => false,
             ])
             ->add('', 'action')
         ;
