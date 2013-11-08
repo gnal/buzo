@@ -88,3 +88,8 @@ msi_cms:
     page_class: Acme\CmsBundle\Entity\Page
     page_layouts:
         'AcmeCoreBundle::layout.html.twig': 'Default'
+
+msi_user:
+    roles:
+        ROLE_ADMIN: admin
+        ROLE_SUPER_ADMIN: super admin
