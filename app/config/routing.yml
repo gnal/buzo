@@ -3,10 +3,8 @@ buzo_core:
     prefix:   /
 
 homepage:
-    pattern:  /{_locale}/
-    defaults: { _controller: AcmeCoreBundle:Home:home }
-    requirements:
-        _locale: fr|en
+    pattern:  /
+    defaults: { _controller: BuzoCoreBundle:Home:home }
 
 # fos_user
 
