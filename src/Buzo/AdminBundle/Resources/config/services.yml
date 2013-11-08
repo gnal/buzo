@@ -1,0 +1,7 @@
+parameters:
+#    buzo_admin.example.class: Buzo\AdminBundle\Example
+
+services:
+#    buzo_admin.example:
+#        class: %buzo_admin.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
